@@ -1,0 +1,51 @@
+
+
+.container-box {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.big-box {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search {
+  font-size: 17px;
+  position: absolute;
+  z-index: 4;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 30px;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: Bahnschrift;
+  position: absolute;
+  z-index: 5;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 30px;
+  color: white;
+}
+
+.pagination {
+  position: absolute;
+  z-index: 6;
+  top: 10%;
+  left:100%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 30px;
+}
